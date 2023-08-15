@@ -48,6 +48,7 @@
             Controls.Add(button1);
             Name = "Ventana2";
             Text = "Ventana2";
+            WindowState = FormWindowState.Maximized;
             ResumeLayout(false);
         }
 

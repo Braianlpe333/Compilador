@@ -97,10 +97,10 @@ namespace EjmSuma
             try
             {
                 linea = leer.ReadLine();
-                int n=1;
+                int n = 1;
                 while (linea != null)
                 {
-                    textosalida.AppendText(n + "  "+linea + "\n");
+                    textosalida.AppendText(n + "  " + linea + "\n");
                     n = n + 1;
                     linea = leer.ReadLine();
                 }
@@ -138,6 +138,11 @@ namespace EjmSuma
         }
 
         private void ubicacion_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textosalida_TextChanged(object sender, EventArgs e)
         {
 
         }

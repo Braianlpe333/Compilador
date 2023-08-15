@@ -82,9 +82,11 @@ namespace EjmSuma
             // 
             textosalida.Location = new Point(474, 209);
             textosalida.Name = "textosalida";
+            textosalida.ReadOnly = true;
             textosalida.Size = new Size(291, 205);
             textosalida.TabIndex = 6;
             textosalida.Text = "";
+            textosalida.TextChanged += textosalida_TextChanged;
             // 
             // salida
             // 
@@ -150,6 +152,7 @@ namespace EjmSuma
             Controls.Add(label1);
             Name = "Ventana";
             Text = "Ventana";
+            WindowState = FormWindowState.Maximized;
             ResumeLayout(false);
             PerformLayout();
         }
