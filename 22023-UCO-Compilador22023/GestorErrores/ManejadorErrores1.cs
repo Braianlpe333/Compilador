@@ -1,0 +1,9 @@
+﻿using System;
+
+public class Class1
+{
+	public enum TipoError
+	{
+		LEXICO, SINTACTICO, SEMANTICO, GENERADOR_CODGIO_INTERMEDIO, OPTIMIZACION, GENERADOR_CODIGO_FINAL
+	}
+}

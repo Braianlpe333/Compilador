@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _22023_UCO_Compilador22023.AnalisisLexico
+{
+    public enum CategoriaGramatical
+    {
+       DEFAULT, IDENTIFICADOR, NUMERO_ENTERO, NUMERO_DECIMAL, SUMA, RESTA, MULTIPLICACION, DIVISION, ASIGANACION, PARENTESIS_ABRE, PARENTESISI_CIERRA, MENOR_QUE, MAYOR_QUE, FIN_ARCHIVO, MAYOT_IGUAL_QUE, MENOR_IGUAL_QUE, DIFERENTE_QUE,
+       NO_DEFINIDA, MODULO, IGUAL_QUE, PALABRA_RESERVADA_CLASS, PALABRA_RESERVADA_IF
+    }
+}
